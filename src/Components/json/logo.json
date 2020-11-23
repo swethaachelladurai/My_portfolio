@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Music Logo",
+    "desc": "Logo for a Arts club",
+    "image": "/images1/logo1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cake Bee",
+    "desc": "Logo for a cake shop",
+    "image": "/images1/logo2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Brothers",
+    "desc": "Logo sample for brothers",
+    "image": "/images1/logo3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Brothers-2",
+    "desc": "Logo sample for brothers",
+    "image": "/images1/logo4.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Art Bucket",
+    "desc": "Logo to repersent Artbucket",
+    "image": "/images1/logo5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "P and S",
+    "desc": "Logo of letter P&S combination",
+    "image": "/images1/logo6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "HK Logo",
+    "desc": "Logo for honey Kicthen",
+    "image": "/images1/logo7.png"
+  },
+  {
+    "id": 8,
+    "name": "ClockWorld",
+    "desc": "Logo for clock World",
+    "image": "/images1/logo8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ellic Store",
+    "desc": "Logo for online costume Store",
+    "image": "/images1/logo9.png"
+  },
+  {
+    "id": 10,
+    "name": "Pen",
+    "desc": "Logo design with name pen",
+    "image": "/images1/logo10.png"
+  },
+  {
+    "id": 11,
+    "name": "Name Logo",
+    "desc": "Logo design with the name",
+    "image": "/images1/logo11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "AR Logo",
+    "desc": "Logo design with A&R letter",
+    "image": "/images1/logo12.png"
+  },
+  {
+    "id": 13,
+    "name": "Shop logo",
+    "desc": "Logo for a Boutique shop",
+    "image": "/images1/logo13.png"
+  },
+  {
+    "id": 14,
+    "name": "Event logo",
+    "desc": "logo design for a online event",
+    "image": "/images1/logo14.png"
+  },
+  {
+    "id": 15,
+    "name": "PSV",
+    "desc": "Logo design for PSV shop",
+    "image": "/images1/logo15.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "Name Logo",
+    "desc": "Logo for a instagram page",
+    "image": "/images1/logo16.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Kai Maru",
+    "desc": "Logo design for a social organization",
+    "image": "/images1/logo17.png"
+  },
+  {
+    "id": 18,
+    "name": "Ellic Store",
+    "desc": "Logo for a online store",
+    "image": "/images1/logo18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "ET",
+    "desc": "Logo for emerging Technology",
+    "image": "/images1/logo19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Taj",
+    "desc": "Logo design for Taj Catering",
+    "image": "/images1/logo20.jpg"
+  },
+  {
+    "id": 21,
+    "name": "T and H",
+    "desc": "Logo design with letter T&H",
+    "image": "/images1/logo21.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Tier3Coders",
+    "desc": "Logo design for a online learner",
+    "image": "/images1/logo22.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Logos",
+    "desc": "Watermark design",
+    "image": "/images1/logo23.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Tech Logo",
+    "desc": "Logo for technology",
+    "image": "/images1/logo24.jpg"
+  }
+]

@@ -1,0 +1,156 @@
+.works {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.works .btn1 {
+  padding: 13px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  box-shadow: 0px 8px 10px rgb(0, 0, 0);
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0px 10px;
+}
+.works .btn1:hover {
+  transition: all 0.3s ease;
+  background-color: rgb(255, 0, 98);
+  transform: scale(1.08);
+}
+.works .btn11 {
+  padding: 13px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 0, 98);
+  color: white;
+  box-shadow: 0px 8px 10px rgb(0, 0, 0);
+  outline: none;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+.works .btn2 {
+  padding: 13px 27px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  box-shadow: 0px 8px 10px rgb(0, 0, 0);
+  margin: 0px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0px 10px;
+}
+.works .btn2:hover {
+  transition: all 0.3s ease;
+  background-color: rgb(255, 0, 98);
+  transform: scale(1.08);
+}
+.works .btn22 {
+  padding: 13px 27px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 0, 98);
+  color: white;
+  box-shadow: 0px 8px 10px rgb(0, 0, 0);
+  margin: 0px;
+  outline: none;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+.works .btn3 {
+  padding: 13px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  box-shadow: 0px 8px 10px rgb(0, 0, 0);
+  outline: none;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+.works .btn3:hover {
+  transition: all 0.3s ease;
+  background-color: rgb(255, 0, 98);
+  transform: scale(1.08);
+}
+.works .btn33 {
+  padding: 13px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 0, 98);
+  color: white;
+  box-shadow: 0px 8px 10px rgb(0, 0, 0);
+  outline: none;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .works .btn1 {
+    padding: 9px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  .works .btn11 {
+    padding: 9px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  .works .btn2 {
+    padding: 9px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  .works .btn22 {
+    padding: 9px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  .works .btn3 {
+    padding: 9px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  .works .btn33 {
+    padding: 9px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+}

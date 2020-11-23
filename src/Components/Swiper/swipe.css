@@ -1,0 +1,65 @@
+.project .swiper-container {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.project .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 390px;
+  background: rgb(59, 59, 59);
+  text-align: center;
+  text-overflow: hidden;
+  /* box-shadow: 3px 8px 20px rgb(0, 0, 0); */
+  border-radius: 8px;
+  opacity: 0.9;
+}
+.project .swiper-slide-active {
+  background: rgb(255, 0, 98);
+  opacity: 1;
+}
+.project .swiper-slide img {
+  width: 280px;
+  height: 280px;
+  text-align: center;
+  margin-top: 9px;
+  border-radius: 4px;
+  pointer-events: none;
+}
+.project .swiper-button-next {
+  background-color: rgb(59, 59, 59);
+  color: rgb(255, 0, 98);
+  padding: 30px 23px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 10px rgb(0, 0, 0);
+}
+.project .swiper-button-prev {
+  background-color: rgb(59, 59, 59);
+  color: rgb(255, 0, 98);
+  padding: 30px 23px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 10px rgb(0, 0, 0);
+}
+.project .swiper-slide h3 {
+  margin: 5px 0 0 0;
+  padding: 0px;
+  border: 0px;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+}
+.project .swiper-slide h4 {
+  color: white;
+  margin: 8px 0 0 0;
+  font-weight: 400;
+  font-family: "ubuntu", sans-serif;
+}
+.project .swiper-slide a {
+  color: white;
+  margin: 6px 0 0 0;
+}
+.swiper-pagination-bullet {
+  background: white;
+}

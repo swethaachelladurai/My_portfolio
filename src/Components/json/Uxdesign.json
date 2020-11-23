@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Portfolio",
+    "desc": "UI design of my portfolio",
+    "url": "https://xd.adobe.com/view/339f81a7-668d-4fed-8ad8-27af2568534c-66cc/",
+    "image": "/images2/web1.png",
+    "visit": "Visit"
+  },
+  {
+    "id": 2,
+    "name": "School ERP App",
+    "desc": "An UI design of a School app",
+    "url": "https://xd.adobe.com/view/c508f753-8c5e-41b1-99e5-6b1fe7f8ed43-905b/",
+    "image": "/images2/web2.png",
+    "visit": "Visit"
+  },
+  {
+    "id": 3,
+    "name": "Blossoms",
+    "desc": "Home page design of flower shop website",
+    "image": "/images2/web3.png"
+  },
+  {
+    "id": 4,
+    "name": "Edu App",
+    "desc": "UI design of a online learning app",
+    "url": "https://xd.adobe.com/view/abc52811-933b-4862-ab7f-e45b78a92468-fe96/",
+    "image": "/images2/web4.png",
+    "visit": "Visit"
+  },
+  {
+    "id": 5,
+    "name": "AR app",
+    "desc": "Learning app using AR-mobie app UI",
+    "url": "https://xd.adobe.com/view/a136a71d-7c2e-4782-b921-1af0212cf66f-f465/",
+    "image": "/images2/web5.png",
+    "visit": "Visit"
+  },
+  {
+    "id": 6,
+    "name": "Cake & Chocolate",
+    "desc": "Landing page design of Cake & Chocolate website",
+    "image": "/images2/web6.png"
+  },
+  {
+    "id": 7,
+    "name": "Online learning App",
+    "desc": "UI of an online learning mobile app",
+    "url": "https://xd.adobe.com/view/45a6175f-e857-4cbe-ad98-c0910040c2ba-10f5/",
+    "image": "/images2/web7.png",
+    "visit": "Visit"
+  },
+  {
+    "id": 8,
+    "name": "Reminder app",
+    "desc": "UI design of a reminder app",
+    "url": "https://xd.adobe.com/view/0e816f5e-3da7-4bcc-b906-d7faac7309a1-5bd2/",
+    "image": "/images2/web8.png",
+    "visit": "Visit"
+  },
+  {
+    "id": 9,
+    "name": "Flower shop",
+    "desc": "landing page design of a flower shop",
+    "image": "/images2/web9.png"
+  },
+  {
+    "id": 10,
+    "name": "Learning App",
+    "desc": "UI for learning app using AR",
+    "url": "https://xd.adobe.com/view/551f010f-4c48-4646-965b-3967cd31e977-004c/",
+    "image": "/images2/web10.png",
+    "visit": "Visit"
+  },
+  {
+    "id": 11,
+    "name": "Blog",
+    "desc": "Blog UI about my internship",
+    "url": "https://xd.adobe.com/view/ffd390e8-eba9-4c97-b8ad-7cd11de5aa42-aa80/",
+    "image": "/images2/web11.png",
+    "visit": "Visit"
+  },
+  {
+    "id": 12,
+    "name": "Sign-up & Login",
+    "desc": "Design of a Signup & login page of grocerry app",
+    "image": "/images2/web12.png"
+  },
+  {
+    "id": 13,
+    "name": "Baby Website",
+    "desc": "Web UI of a baby shopping website",
+    "url": "https://xd.adobe.com/view/16c83062-0fa0-497c-bb77-cd6e6e374b7e-439b/",
+    "image": "/images2/web13.png",
+    "visit": "Visit"
+  },
+  {
+    "id": 14,
+    "name": "TexApp",
+    "desc": "UI of a TexApp(Design Select in phase1)",
+    "url": "https://xd.adobe.com/view/8f5a88d4-acad-4872-b341-eca3b4c28613-da09/",
+    "image": "/images2/web14.png",
+    "visit": "Visit"
+  },
+  {
+    "id": 15,
+    "name": "Minions",
+    "desc": "Landing page design for Minions",
+    "image": "/images2/web15.png"
+  }
+]
