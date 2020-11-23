@@ -33,7 +33,7 @@ function Section() {
                             <img src="/all/about.png" alt="about"></img>
                         </div>
                         <div className="column right">
-                            <div className="text">I'm Swethaa and I'm an <span>UI/UX Designer !.</span></div>
+                            <div className="text">I'm Swethaa and I'm an <span>UI/UX Designer!</span></div>
                             <p>{data.about}</p>
                         </div>
                     </div>

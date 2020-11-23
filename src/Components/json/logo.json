@@ -31,114 +31,108 @@
   },
   {
     "id": 6,
-    "name": "P and S",
-    "desc": "Logo of letter P&S combination",
-    "image": "/images1/logo6.jpg"
-  },
-  {
-    "id": 7,
     "name": "HK Logo",
     "desc": "Logo for honey Kicthen",
     "image": "/images1/logo7.png"
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "ClockWorld",
     "desc": "Logo for clock World",
     "image": "/images1/logo8.jpg"
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Ellic Store",
     "desc": "Logo for online costume Store",
     "image": "/images1/logo9.png"
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "Pen",
     "desc": "Logo design with name pen",
     "image": "/images1/logo10.png"
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "Name Logo",
     "desc": "Logo design with the name",
     "image": "/images1/logo11.jpg"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "AR Logo",
     "desc": "Logo design with A&R letter",
     "image": "/images1/logo12.png"
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "Shop logo",
     "desc": "Logo for a Boutique shop",
     "image": "/images1/logo13.png"
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Event logo",
     "desc": "logo design for a online event",
     "image": "/images1/logo14.png"
   },
   {
-    "id": 15,
+    "id": 14,
     "name": "PSV",
     "desc": "Logo design for PSV shop",
     "image": "/images1/logo15.jpeg"
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "Name Logo",
     "desc": "Logo for a instagram page",
     "image": "/images1/logo16.jpg"
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "Kai Maru",
     "desc": "Logo design for a social organization",
     "image": "/images1/logo17.png"
   },
   {
-    "id": 18,
+    "id": 17,
     "name": "Ellic Store",
     "desc": "Logo for a online store",
     "image": "/images1/logo18.jpg"
   },
   {
-    "id": 19,
+    "id": 18,
     "name": "ET",
     "desc": "Logo for emerging Technology",
     "image": "/images1/logo19.jpg"
   },
   {
-    "id": 20,
+    "id": 19,
     "name": "Taj",
     "desc": "Logo design for Taj Catering",
     "image": "/images1/logo20.jpg"
   },
   {
-    "id": 21,
+    "id": 20,
     "name": "T and H",
     "desc": "Logo design with letter T&H",
     "image": "/images1/logo21.jpg"
   },
   {
-    "id": 22,
+    "id": 21,
     "name": "Tier3Coders",
     "desc": "Logo design for a online learner",
     "image": "/images1/logo22.jpg"
   },
   {
-    "id": 23,
+    "id": 22,
     "name": "Logos",
     "desc": "Watermark design",
     "image": "/images1/logo23.jpg"
   },
   {
-    "id": 24,
+    "id": 23,
     "name": "Tech Logo",
     "desc": "Logo for technology",
     "image": "/images1/logo24.jpg"

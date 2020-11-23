@@ -46,13 +46,13 @@ function Uxdesign() {
           {data.map((data) => {
             return (
               <div className="swiper-slide" key={data.id}>
-                <img src={data.image} alt="poster"></img>
+                <img src={data.image} alt="images"></img>
                 <div>
                   <h3>{data.name}</h3>
                   <h4>{data.desc}</h4>
-                  <a href={data.url} target="_blank" rel="noreferrer">
+                  <div className="links"><a href={data.url} target="_blank" rel="noreferrer">
                     {data.visit}
-                  </a>
+                  </a></div>
                 </div>
               </div>
             );

@@ -56,10 +56,14 @@
   font-weight: 400;
   font-family: "ubuntu", sans-serif;
 }
-.project .swiper-slide a {
-  color: white;
-  margin: 6px 0 0 0;
-}
 .swiper-pagination-bullet {
   background: white;
+}
+.swiper-slide .links a {
+  font-weight: 800;
+  text-decoration: underline;
+  margin-top: 20px 0px 0px 0px;
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  font-size: 18px;
 }

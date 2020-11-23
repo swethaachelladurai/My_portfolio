@@ -34,16 +34,17 @@ function Swiper() {
     setClick2(false);
     setClick3(true);
   };
+  
   return (
     <div className="works">
       <button className={Click1 ? "btn11" : "btn1"} onClick={handelClick}>
-        Poster
+        Posters
       </button>
       <button className={Click2 ? "btn22" : "btn2"} onClick={handelClick1}>
-        Logo
+        Logos
       </button>
       <button className={Click3 ? "btn33" : "btn3"} onClick={handelClick2}>
-        UX Design
+        UI Designs
       </button>
       {poster ? (
         <Poster />
