@@ -23,7 +23,7 @@ function Section() {
         <div>
             {data.map((data) => {
             return (
-              <div> 
+              <div className="sect"> 
                 {/* <!-- About section--!> */}
             <section className="about" >
                 <div className="max-width">

@@ -1,3 +1,6 @@
+.sect {
+  -webkit-tap-highlight-color: transparent;
+}
 section {
   padding: 30px 0;
   width: 100%;

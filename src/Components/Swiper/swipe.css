@@ -67,3 +67,10 @@
   color: white;
   font-size: 18px;
 }
+.swiper-slide .root-34 {
+  display: flex;
+  width: fit-content;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+}

@@ -11,6 +11,7 @@
   font-family: "ubuntu", sans-serif;
   margin-top: 0;
   z-index: 10;
+  -webkit-tap-highlight-color: transparent;
 }
 .navbar .navList li a:hover {
   border-bottom: 3px solid rgb(255, 0, 98);

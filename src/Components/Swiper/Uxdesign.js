@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Swiper from "swiper";
 import "swiper/swiper-bundle.css";
 import "./swipe.css";
+import { Spinner, SpinnerSize } from 'office-ui-fabric-react/lib/Spinner';
 import {
   Pagination,
   EffectCoverflow,
@@ -46,7 +47,9 @@ function Uxdesign() {
           {data.map((data) => {
             return (
               <div className="swiper-slide" key={data.id}>
-                <img src={data.image} alt="images"></img>
+                {
+                  data.image ? <img src={data.image} alt="Designs"></img> : <Spinner size={SpinnerSize.medium} />
+                }
                 <div>
                   <h3>{data.name}</h3>
                   <h4>{data.desc}</h4>

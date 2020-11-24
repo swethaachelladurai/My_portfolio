@@ -3,7 +3,7 @@ import "./Header.css";
 import data from "./json/content.json"
 function Header(){
     return(
-        <div className="head">
+        <div>
             <section className="home" id="home">
                 <div className="max-width"> 
                     <div className="home-container">

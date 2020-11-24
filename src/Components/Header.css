@@ -7,6 +7,7 @@
   margin: 0;
   width: 100%;
   justify-content: center;
+  -webkit-tap-highlight-color: transparent;
 }
 .home .max-width {
   margin: auto 0 auto 0;
