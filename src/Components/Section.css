@@ -267,7 +267,6 @@ section .title::after {
   margin-top: 65px;
   align-items: center;
   justify-content: center;
-  display: table;
   box-sizing: border-box;
   text-align: center;
 }

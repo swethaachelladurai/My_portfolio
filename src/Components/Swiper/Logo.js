@@ -34,7 +34,7 @@ function Logo() {
       coverflowEffect: {
         rotate: 0,
         stretch: 0,
-        depth: 300,
+        depth: 200,
         modifier: 1,
         slideShadows: true,
       },
