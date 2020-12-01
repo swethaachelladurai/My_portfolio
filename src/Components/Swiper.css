@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 60px;
+  -webkit-tap-highlight-color: transparent;
 }
 .works .btn1 {
   padding: 13px 25px;
