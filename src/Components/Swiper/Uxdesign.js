@@ -53,9 +53,6 @@ function Uxdesign() {
                 <div>
                   <h3>{data.name}</h3>
                   <h4>{data.desc}</h4>
-                  <div className="links"><a href={data.url} target="_blank" rel="noreferrer">
-                    {data.visit}
-                  </a></div>
                 </div>
               </div>
             );
