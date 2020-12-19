@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  cursor: default;
 }
 .navbar {
   position: fixed;
@@ -15,6 +16,7 @@
 }
 .navbar .navList li a:hover {
   border-bottom: 3px solid rgb(255, 0, 98);
+  cursor: pointer;
 }
 .navbar .nav-logo p {
   font-family: "Fredoka One", cursive;

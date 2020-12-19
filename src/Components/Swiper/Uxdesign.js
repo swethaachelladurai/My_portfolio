@@ -10,7 +10,7 @@ import {
   Mousewheel,
   Keyboard,
 } from "swiper";
-import data from "../json/Uxdesign.json";
+import data from "../json/content.json";
 function Uxdesign() {
   Swiper.use([Pagination, EffectCoverflow, Navigation, Mousewheel, Keyboard]);
   const swiper = useRef(null);
@@ -44,7 +44,7 @@ function Uxdesign() {
     <div className="project">
       <div className="swiper-container">
         <div className="swiper-wrapper">
-          {data.map((data) => {
+          {data[2].map((data) => {
             return (
               <div className="swiper-slide" key={data.id}>
                 {

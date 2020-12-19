@@ -10,7 +10,7 @@ import {
   Mousewheel,
   Keyboard,
 } from "swiper";
-import data from "../json/logo.json";
+import data from "../json/content.json";
 function Logo() {
   Swiper.use([Pagination, EffectCoverflow, Navigation, Mousewheel, Keyboard]);
   const swiper = useRef(null);
@@ -44,7 +44,7 @@ function Logo() {
     <div className="project">
       <div className="swiper-container">
         <div className="swiper-wrapper">
-          {data.map((data) => {
+          {data[1].map((data) => {
             return (
               <div className="swiper-slide" key={data.id}>
                 {

@@ -13,7 +13,7 @@ function Header(){
                         <div className="text1">Hello! Myself</div>
                         <div className="text2">Swethaa Chelladurai</div>
                         <div className="text3">I'm an <span>UI/UX Designer.</span></div>
-                        {data.map((data) => {
+                        {data[3].map((data) => {
                             return (
                             <div>
                                 <a href={data.file} download={data.file}>

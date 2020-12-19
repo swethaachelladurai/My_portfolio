@@ -1,7 +1,425 @@
+[[
+  {
+    "id": 1,
+    "name": "International Tiger Day",
+    "desc": "Poster Template for Tiger's day",
+    "image": "/images/poster1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "UI/UX Poster",
+    "desc": "Poster for ui ux design",
+    "image": "/images/poster2.png"
+  },
+  {
+    "id": 3,
+    "name": "World Ozone Day",
+    "desc": "Poster for ozone day",
+    "image": "/images/poster3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cafe Camellia",
+    "desc": "Advertisement poster for cafe camellia",
+    "image": "/images/poster4.png"
+  },
+  {
+    "id": 5,
+    "name": "Women Equality",
+    "desc": "Poster for women equality day",
+    "image": "/images/poster5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Momos",
+    "desc": "Advertisement Poster for momos",
+    "image": "/images/poster6.png"
+  },
+  {
+    "id": 7,
+    "name": "World Conservation Day",
+    "desc": "Poster for Conservation Day",
+    "image": "/images/poster7.png"
+  },
+  {
+    "id": 8,
+    "name": "Engineer's Day",
+    "desc": "Poster for engineer's day",
+    "image": "/images/poster8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Animation Poster",
+    "desc": "AD Poster for animation & modelling",
+    "image": "/images/poster9.png"
+  },
+  {
+    "id": 10,
+    "name": "World Standards Day",
+    "desc": "Poster for World Standards Day",
+    "image": "/images/poster10.png"
+  },
+  {
+    "id": 11,
+    "name": "Animation Poster",
+    "desc": "AD Poster for animation & Image",
+    "image": "/images/poster11.png"
+  },
+  {
+    "id": 12,
+    "name": "National Parent's day",
+    "desc": "Poster for National Parent's day",
+    "image": "/images/poster12.png"
+  },
+  {
+    "id": 13,
+    "name": "Arabic Language",
+    "desc": "AD Poster to learn Arabic",
+    "image": "/images/poster13.png"
+  },
+  {
+    "id": 14,
+    "name": "World Population Day",
+    "desc": "Poster for World Population Day",
+    "image": "/images/poster14.png"
+  },
+  {
+    "id": 15,
+    "name": "World Photography Day",
+    "desc": "Poster for World Photography Day",
+    "image": "/images/poster15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Animation Poster",
+    "desc": "AD Poster for Modelling in animation",
+    "image": "/images/poster16.png"
+  },
+  {
+    "id": 17,
+    "name": "International Peace Day",
+    "desc": "Poster for International Peace Day",
+    "image": "/images/poster17.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Independence Day",
+    "desc": "Poster for Independence Day",
+    "image": "/images/poster18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "UI/UX Poster",
+    "desc": "Poster to learn ui ux design",
+    "image": "/images/poster19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Paper Bag Day",
+    "desc": "Poster for Paper Bag Day",
+    "image": "/images/poster20.png"
+  },
+  {
+    "id": 21,
+    "name": "Raksha Bandhan",
+    "desc": "Poster Template for Raksha Bandhan",
+    "image": "/images/poster21.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Event Poster",
+    "desc": "Event Poster for Teach A parent",
+    "image": "/images/poster22.png"
+  },
+  {
+    "id": 23,
+    "name": "Machine Learning",
+    "desc": "Poster Template for ML tech Week",
+    "image": "/images/poster23.png"
+  },
+  {
+    "id": 24,
+    "name": "Teacher's Day",
+    "desc": "Poster for Teacher's Day",
+    "image": "/images/poster24.png"
+  },
+  {
+    "id": 25,
+    "name": "Data Analytics",
+    "desc": "Poster Template for data analytics tech Week",
+    "image": "/images/poster25.png"
+  },
+  {
+    "id": 26,
+    "name": "AD Poster",
+    "desc": "Poster for shopping offer sale",
+    "image": "/images/poster26.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Data Analytics",
+    "desc": "Poster Template for data analytics tech Week",
+    "image": "/images/poster27.png"
+  },
+  {
+    "id": 28,
+    "name": "Virtual & Agumented Reality",
+    "desc": "Poster Template for VR & AR tech Week",
+    "image": "/images/poster28.png"
+  },
+  {
+    "id": 29,
+    "name": "Event Poster",
+    "desc": "Event Poster for Teach A parent",
+    "image": "/images/poster29.png"
+  },
+  {
+    "id": 30,
+    "name": "Event Poster",
+    "desc": "Event Poster for Teach A parent",
+    "image": "/images/poster30.png"
+  },
+  {
+    "id": 31,
+    "name": "Event Poster",
+    "desc": "Event Poster for Teach A parent",
+    "image": "/images/poster31.png"
+  },
+  {
+    "id": 32,
+    "name": "Event Template",
+    "desc": "Poster template for event posters",
+    "image": "/images/poster32.png"
+  }
+],
+  
+
+[
+  {
+    "id": 1,
+    "name": "Music Logo",
+    "desc": "Logo for a Arts club",
+    "image": "/images1/logo1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cake Bee",
+    "desc": "Logo for a cake shop",
+    "image": "/images1/logo2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Brothers",
+    "desc": "Logo-1 for brothers Shop",
+    "image": "/images1/logo3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Brothers-2",
+    "desc": "Logo-2 for brothers shop",
+    "image": "/images1/logo4.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Art Bucket",
+    "desc": "Logo to repersent Artbucket",
+    "image": "/images1/logo5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "HK Logo",
+    "desc": "Logo for honey Kicthen",
+    "image": "/images1/logo7.png"
+  },
+  {
+    "id": 7,
+    "name": "ClockWorld",
+    "desc": "Logo for clock World",
+    "image": "/images1/logo8.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Ellic Store",
+    "desc": "Logo for online costume Store",
+    "image": "/images1/logo9.png"
+  },
+  {
+    "id": 9,
+    "name": "Pen",
+    "desc": "Logo design with name pen",
+    "image": "/images1/logo10.png"
+  },
+  {
+    "id": 10,
+    "name": "Name Logo",
+    "desc": "Logo design with the name",
+    "image": "/images1/logo11.jpg"
+  },
+  {
+    "id": 11,
+    "name": "AR Logo",
+    "desc": "Logo design with A&R letter",
+    "image": "/images1/logo12.png"
+  },
+  {
+    "id": 12,
+    "name": "Shop logo",
+    "desc": "Logo for a Boutique shop",
+    "image": "/images1/logo13.png"
+  },
+  {
+    "id": 13,
+    "name": "Event logo",
+    "desc": "logo design for a online event",
+    "image": "/images1/logo14.png"
+  },
+  {
+    "id": 14,
+    "name": "PSV",
+    "desc": "Logo design for PSV shop",
+    "image": "/images1/logo15.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Name Logo",
+    "desc": "Logo for an instagram page",
+    "image": "/images1/logo16.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Kai Maru",
+    "desc": "Logo design for a social organization",
+    "image": "/images1/logo17.png"
+  },
+  {
+    "id": 17,
+    "name": "Ellic Store",
+    "desc": "Logo for an online store",
+    "image": "/images1/logo18.jpg"
+  },
+  {
+    "id": 18,
+    "name": "ET",
+    "desc": "Logo for emerging Technology",
+    "image": "/images1/logo19.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Taj",
+    "desc": "Logo design for Taj Catering",
+    "image": "/images1/logo20.jpg"
+  },
+  {
+    "id": 20,
+    "name": "T and H",
+    "desc": "Logo design with letter T&H",
+    "image": "/images1/logo21.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Tier3Coders",
+    "desc": "Logo design for a online learner",
+    "image": "/images1/logo22.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Logos",
+    "desc": "Watermark design",
+    "image": "/images1/logo23.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Tech Logo",
+    "desc": "Logo for technology",
+    "image": "/images1/logo24.jpg"
+  }
+],
+
+[
+  {
+    "id": 1,
+    "name": "Portfolio",
+    "desc": "UI template for portfolio",
+    "image": "/images2/web1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "School ERP App",
+    "desc": "UI design of a School ERP app",
+    "image": "/images2/web2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "TexApp",
+    "desc": "UI for TexApp(Design Select in phase1)",
+    "image": "/images2/web3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Edu App",
+    "desc": "UI template for online learning app",
+    "image": "/images2/web4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Classroom App",
+    "desc": "UI design for a classroom app",
+    "image": "/images2/web5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Landing Pages",
+    "desc": "landing page UI for different website",
+    "image": "/images2/web6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Online learning App",
+    "desc": "UI of an online learning mobile app",
+    "image": "/images2/web7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Reminder app",
+    "desc": "UI template for a reminder app",
+    "image": "/images2/web8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "AR edu",
+    "desc": "UI template for Edu app using AR",
+    "image": "/images2/web9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Blog",
+    "desc": "Blog UI for my internship",
+    "image": "/images2/web10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Sign-up & Login",
+    "desc": "UI design of a Signup & login page",
+    "image": "/images2/web11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Baby Website",
+    "desc": "Web UI of a baby shopping website",
+    "image": "/images2/web12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Flower Shop",
+    "desc": "Web UI for a flower shop",
+    "image": "/images2/web13.jpg"
+  }
+],
+
 [
   {
     "file": "/all/Resume.pdf",
-    "about":"A Passionate Computer Science engineering Student working to reach my goals in the field of Designing. A good UI/UX , Logo and Poster designer. I'm a friendly person easily adoptable to any situation and a hard worker.",
+    "about":"A Passionate Computer Science engineering Student with exceptional communication and interpersonal skills, I myself confident and quick adaptive to changing trends. I'm seeking for a challenging career that would exhibit my skills in the area of UI/UX and Graphic Designing.",
     "clg":"B.E Computer Science",
     "clg1":"Sri Krishna College of Technology",
     "clg2":"Coimbatore",
@@ -20,4 +438,4 @@
     "po1":"@Draup (July 2020 - Aug 2020)",
     "lo":"@Girlscript Coimbatore (Aug 2020 - Present) "
   }
-]
+]]

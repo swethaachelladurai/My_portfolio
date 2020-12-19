@@ -21,6 +21,7 @@
   transition: all 0.3s ease;
   margin: 0px 10px;
 }
+
 .works .btn1:hover {
   transition: all 0.3s ease;
   background-color: rgb(255, 0, 98);

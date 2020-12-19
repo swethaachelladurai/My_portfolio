@@ -1,6 +1,8 @@
 .sect {
   -webkit-tap-highlight-color: transparent;
+  cursor: default;
 }
+
 section {
   padding: 30px 0;
   width: 100%;
@@ -58,7 +60,7 @@ section .title::after {
 /* <!--About style --!> */
 
 .about .title::after {
-  content: "who i am";
+  content: "who am i";
 }
 .about .about-content {
   display: flex;
@@ -119,14 +121,14 @@ section .title::after {
   text-align: center;
 }
 .expe .expe-content .column {
-  width: 30%;
-  padding: 15px 20px;
+  width: 28%;
+  padding: 25px 25px;
   display: inline-block;
 }
 
 .expe .expe-content .card {
   box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
-  padding: 30px 35px;
+  padding: 20px 20px 30px 20px;
   text-align: center;
   background-color: rgb(53, 53, 53);
   cursor: pointer;
@@ -144,7 +146,7 @@ section .title::after {
 }
 .expe .expe-content .card i {
   color: rgb(255, 0, 98);
-  font-size: 45px;
+  font-size: 30px;
   transition: color 0.3s ease;
 }
 .expe .expe-content .card:hover i {
@@ -154,10 +156,9 @@ section .title::after {
   font-size: 25px;
   font-weight: 800;
   margin: 15px 0 7px 0;
-  margin-top: 20px;
 }
 .expe .expe-content .card p {
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 15px;
   line-height: 25px;
   font-weight: 400;

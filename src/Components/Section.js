@@ -21,7 +21,7 @@ function Section() {
   window.addEventListener('scroll', checkScrollTop)
     return(
         <div>
-            {data.map((data) => {
+            {data[3].map((data) => {
             return (
               <div className="sect"> 
                 {/* <!-- About section--!> */}
@@ -67,6 +67,24 @@ function Section() {
                                       <p>{data.po}</p>
                                     </div>
                                 </div>
+                                    </div>
+                                    <div class="column">
+                                  <div class="card">
+                                      <div className="box">
+                                         <i className="fa fa-paper-plane"></i>
+                                         <div className="text">UI/UX Intern</div>
+                                         <p>{data.ui1}</p>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="column">
+                              <div class="card">
+                                  <div className="box">
+                                      <i className="fa fa-paper-plane"></i>
+                                      <div className="text">Chapter Member</div>
+                                      <p>{data.lo}</p>
+                                    </div>
+                              </div>
                             </div>
                             <div class="column">
                                   <div class="card">
@@ -77,25 +95,6 @@ function Section() {
                                         </div>
                                     </div>
                                 </div>
-                            <div class="column">
-                                  <div class="card">
-                                      <div className="box">
-                                         <i className="fa fa-paper-plane"></i>
-                                         <div className="text">UI/UX Intern</div>
-                                         <p>{data.ui1}</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            <div class="column">
-                              <div class="card">
-                                  <div className="box">
-                                      <i className="fa fa-paper-plane"></i>
-                                      <div className="text">Chapter Member</div>
-                                      <p>{data.lo}</p>
-                                    </div>
-                              </div>
-                            </div>
                         </div>
                     </div>
                 </div>

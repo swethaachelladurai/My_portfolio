@@ -11,9 +11,9 @@ function Swiper() {
   const [Click2, setClick2] = useState(false);
   const [Click3, setClick3] = useState(false);
   const handelClick = () => {
-    setPoster(true);
+    setPoster(false);
     setLogo(false);
-    setUxdesign(false);
+    setUxdesign(true);
     setClick1(true);
     setClick2(false);
     setClick3(false);
@@ -27,9 +27,9 @@ function Swiper() {
     setClick3(false);
   };
   const handelClick2 = () => {
-    setPoster(false);
+    setPoster(true);
     setLogo(false);
-    setUxdesign(true);
+    setUxdesign(false);
     setClick1(false);
     setClick2(false);
     setClick3(true);
@@ -38,22 +38,22 @@ function Swiper() {
   return (
     <div className="works">
       <button className={Click1 ? "btn11" : "btn1"} onClick={handelClick}>
-        Posters
+        UI Designs
       </button>
       <button className={Click2 ? "btn22" : "btn2"} onClick={handelClick1}>
         Logos
       </button>
       <button className={Click3 ? "btn33" : "btn3"} onClick={handelClick2}>
-        UI Designs
+        Posters
       </button>
-      {poster ? (
-        <Poster />
+      {uxdesign ? (
+        <Uxdesign />
       ) : logo ? (
         <Logo />
-      ) : uxdesign ? (
-        <Uxdesign />
-      ) : (
+      ) : poster ? (
         <Poster />
+      ) : (
+        <Uxdesign />
       )}
     </div>
   );

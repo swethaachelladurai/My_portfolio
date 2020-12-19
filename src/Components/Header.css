@@ -8,6 +8,7 @@
   width: 100%;
   justify-content: center;
   -webkit-tap-highlight-color: transparent;
+  cursor: default;
 }
 .home .max-width {
   margin: auto 0 auto 0;
