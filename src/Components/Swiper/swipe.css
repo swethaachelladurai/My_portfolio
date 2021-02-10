@@ -29,7 +29,6 @@
   text-align: center;
   margin-top: 9px;
   border-radius: 4px;
-  pointer-events: none;
 }
 .project .swiper-button-next {
   background-color: rgb(59, 59, 59);

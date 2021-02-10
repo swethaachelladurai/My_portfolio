@@ -48,7 +48,7 @@ function Poster() {
             return (
               <div className="swiper-slide" key={data.id}>
                 {
-                  data.image ? <img src={data.image} alt="poster"></img> : <Spinner size={SpinnerSize.medium} />
+                  data.image ? <a href={data.image} target="blank" style={{textDecoration:"none"}}><img src={data.image} alt="poster"></img></a>  : <Spinner size={SpinnerSize.medium} />
                 }
                 <div>
                   <h3>{data.name}</h3>
