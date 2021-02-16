@@ -30,6 +30,13 @@
   margin-top: 9px;
   border-radius: 4px;
 }
+.dialog {
+  box-shadow: 0 8px 6px -6px black;
+  position: static;
+  left: 20%;
+  top: 10%;
+}
+
 .project .swiper-button-next {
   background-color: rgb(59, 59, 59);
   color: rgb(255, 0, 98);
