@@ -1,4 +1,4 @@
-import React, { useEffect, useRef,useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Swiper from "swiper";
 import "swiper/swiper-bundle.css";
 import "./swipe.css";
@@ -40,19 +40,22 @@ function Uxdesign() {
     });
   }, []);
   const [Open, setOpen] = useState(false);
-
+  const [tar, settar] = useState();
   const showPopup = (event) => {
     setOpen(!Open);
-    console.log(event);
+    settar(event.target.src);
+  }
+  const ClosePopup = () => {
+    setOpen(!Open)
   }
   return (
-    <div className="project">
+    <div className="project" >
       <div className="swiper-container">
         <div className="swiper-wrapper">
           {data[2].map((data) => {
             return (
-              <div className="swiper-slide" key={data.id} onClick={showPopup}>
-                <img src={data.image} alt="Designs" ></img>
+              <div className="swiper-slide" key={data.id}>
+                <img src={data.image} alt="Designs" id={data.id} onClick={showPopup}></img>
                 <div>
                   <h3>{data.name}</h3>
                   <h4>{data.desc}</h4>
@@ -64,6 +67,9 @@ function Uxdesign() {
         <div class="swiper-pagination"></div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
+      </div>
+      <div>
+        {Open ? <div className="popup" id="overlay"><div className="popup-content"><i className="fa fa-times" onClick={ClosePopup}></i><img src={tar} alt=""></img></div></div> : null}
       </div>
     </div>
   );

@@ -1,8 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Swiper from "swiper";
 import "swiper/swiper-bundle.css";
 import "./swipe.css";
-import { Spinner, SpinnerSize } from 'office-ui-fabric-react/lib/Spinner';
 import {
   Pagination,
   EffectCoverflow,
@@ -34,12 +33,21 @@ function Poster() {
       coverflowEffect: {
         rotate: 0,
         stretch: 0,
-        depth:200,
+        depth: 200,
         modifier: 1,
         slideShadows: true,
       },
     });
   }, []);
+  const [Open, setOpen] = useState(false);
+  const [tar, settar] = useState();
+  const showPopup = (event) => {
+    setOpen(!Open);
+    settar(event.target.src);
+  }
+  const ClosePopup = () => {
+    setOpen(!Open)
+  }
   return (
     <div className="project">
       <div className="swiper-container">
@@ -47,9 +55,7 @@ function Poster() {
           {data[0].map((data) => {
             return (
               <div className="swiper-slide" key={data.id}>
-                {
-                  data.image ? <a href={data.image} target="blank" style={{textDecoration:"none"}}><img src={data.image} alt="poster"></img></a>  : <Spinner size={SpinnerSize.medium} />
-                }
+                <img src={data.image} alt="poster" id={data.id} onClick={showPopup}></img>
                 <div>
                   <h3>{data.name}</h3>
                   <h4>{data.desc}</h4>
@@ -61,6 +67,9 @@ function Poster() {
         <div class="swiper-pagination"></div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
+      </div>
+      <div>
+        {Open ? <div className="popup" id="overlay"><div className="popup-content"><i className="fa fa-times" onClick={ClosePopup}></i><img src={tar} alt=""></img></div></div> : null}
       </div>
     </div>
   );

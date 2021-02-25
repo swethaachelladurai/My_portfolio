@@ -243,6 +243,9 @@ section .title::after {
 .skills .skills-content .right .canva::before {
   width: 90%;
 }
+.skills .skills-content .right .react::before {
+  width: 50%;
+}
 
 /* <!--work style --!> */
 

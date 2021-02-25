@@ -1,8 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Swiper from "swiper";
 import "swiper/swiper-bundle.css";
 import "./swipe.css";
-import { Spinner, SpinnerSize } from 'office-ui-fabric-react/lib/Spinner';
 import {
   Pagination,
   EffectCoverflow,
@@ -40,6 +39,15 @@ function Logo() {
       },
     });
   }, []);
+  const [Open, setOpen] = useState(false);
+  const [tar, settar] = useState();
+  const showPopup = (event) => {
+    setOpen(!Open);
+    settar(event.target.src);
+  }
+  const ClosePopup = () => {
+    setOpen(!Open)
+  }
   return (
     <div className="project">
       <div className="swiper-container">
@@ -47,9 +55,7 @@ function Logo() {
           {data[1].map((data) => {
             return (
               <div className="swiper-slide" key={data.id}>
-                {
-                  data.image ? <a href={data.image} target="blank" style={{textDecoration:"none"}}><img src={data.image} alt="logo"></img></a> : <Spinner size={SpinnerSize.medium} />
-                }
+                <img src={data.image} alt="logo" id={data.id} onClick={showPopup}></img>
                 <div>
                   <h3>{data.name}</h3>
                   <h4>{data.desc}</h4>
@@ -61,6 +67,9 @@ function Logo() {
         <div class="swiper-pagination"></div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
+      </div>
+      <div>
+        {Open ? <div className="popup" id="overlay"><div className="popup-content"><i className="fa fa-times" onClick={ClosePopup}></i><img src={tar} alt=""></img></div></div> : null}
       </div>
     </div>
   );
