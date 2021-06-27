@@ -234,6 +234,7 @@ function Section() {
                                     <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=swethaachelladurai@gmail.com" rel="noreferrer" target="_blank"><i className="fa fa-envelope"></i></a>
                                     <a href="https://www.linkedin.com/in/swethaa-c-395845178/" rel="noreferrer" target="_blank"><i className="fa fa-linkedin"></i></a>
                                     <a href="https://www.instagram.com/_art_bucket_/" rel="noreferrer" target="_blank"><i className="fa fa-instagram"></i></a>
+                                    <a href="https://www.behance.net/swethaachelladurai" rel="noreferrer" target="_blank"><i className="fa fa-behance"></i></a>
                                 </div>
                             </div>
                         </footer>

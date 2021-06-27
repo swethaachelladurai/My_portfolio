@@ -338,6 +338,19 @@ footer .icons i {
   font-size: 30px;
   padding: 15px;
 }
+.fa-envelope{
+  cursor: pointer;
+}
+.fa-linkedin{
+  cursor: pointer;
+}
+.fa-instagram{
+  cursor: pointer;
+}
+.fa-behance{
+  cursor: pointer;
+}
+
 
 /* <!--Scroll-up-btn style --!> */
 
